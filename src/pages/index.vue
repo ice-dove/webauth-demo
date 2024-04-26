@@ -23,7 +23,7 @@
   const options: any = {
     rp: {
       name: 'Web Auth Demo',
-      id: 'fuzzwallet.com',
+      id: import.meta.env.VITE_APP_RP_ID,
     },
     user: {
       id: '1231332123',
